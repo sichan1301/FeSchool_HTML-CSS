@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weniv Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="main">
+            <p class="title">로그인 또는 회원가입</p>
+            <p class="weniv">위니브에서 여러분의 궁금증을 해결하세요! :)</p>
+            
+            <div class="loginForm">
+                <input type="text" class="loginForm_login" placeholder="아이디 입력">
+                <input type="text" class="loginForm_password" placeholder="비밀번호 입력">
+            </div>
+            <p>로그인 상태 유지</p>
+            <input type="submit" class="submit" placeholder="로그인">
+            <div class="sign">
+                <p class="sign_signin">회원가입</p>
+                <p class="sign_find">아이디/비밀번호 찾기</p>    
+            </div>
+            <div class="line">
+            <p class="or">또는</p>
+            </div>
+    
+            <div id="social">
+                <p class="social google">구글 계정으로 로그인</p>
+                <p class="social facebook">페이스북 계정으로 로그인</p>
+                <p class="social naver">네이버 계정으로 로그인</p>
+                <p class="social kakao">카카오 계정으로 로그인</p>
+            </div>
+    </section>
+</body>
+</html>
