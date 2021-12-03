@@ -1,0 +1,28 @@
+<body>
+    점심 식단
+    <article id="container">
+        <ul>
+            <li id = "item-first">탕수육</li>
+            <li class="item-second">유산슬</li>
+            <li>짜장면</li>
+        </ul>
+    </article>
+    저녁 식단
+    <article>
+        <ul>
+            <li>된장국</li>
+            <li class="item-second">김치찌게</li>
+            <li>해장국</li>
+        </ul>
+    </article>
+
+    <script>
+        let item = document.getElementById('container').getElementsByClassName('item-second');
+        let item2 = document.getElementById('container').getElementsByTagName('li');
+        let item3 = document.getElementsByTagName('article')[1].getElementsByClassName('item-second');
+        console.log(item[0]);
+        console.log(item2[0]);
+        console.log(item3[0]);
+    </script>
+
+</body>
